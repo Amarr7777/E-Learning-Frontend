@@ -1,6 +1,7 @@
 import React from "react";
 import { setCourse } from "../redux/courseSlice";
 import { useDispatch } from "react-redux";
+import { Link } from "react-feather";
 function CourseCard({ course }) {
   const dispatch = useDispatch();
   const handleClick = ()=>{
@@ -17,15 +18,11 @@ function CourseCard({ course }) {
               <h5 className="font-bold">{course.instructor}</h5>
               <p className="mb-1">{course.description} </p>
               <p className="mb-12">{course.duration} </p>
-
-              <a
-                className="mt-auto mb-0 font-semibold leading-normal text-sm group text-slate-500"
-                href="/details"
-                onClick={handleClick}
-              >
-                Read More
-                <i className="fas fa-arrow-right ease-bounce text-sm group-hover:translate-x-1.25 ml-1 leading-normal transition-all duration-200"></i>
-              </a>
+              <Link to="/details"
+               onClick={handleClick}
+              className="mt-auto mb-0 font-semibold leading-normal text-sm group text-slate-500"
+              >Read more</Link>
+             
             </div>
           </div>
           <div className="max-w-full px-3 mt-12 ml-auto text-center lg:mt-0 lg:w-5/12 lg:flex-none">
