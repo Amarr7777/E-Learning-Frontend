@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import CourseInfoCard from "../components/CourseInfoCard";
 import Syllabus from "../components/Syllabus";
 import { useSelector } from "react-redux";

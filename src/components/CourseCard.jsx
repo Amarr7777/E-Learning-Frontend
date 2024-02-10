@@ -1,12 +1,12 @@
 import React from "react";
 import { setCourse } from "../redux/courseSlice";
-// import { selectCourse } from "../actions";
+import { useDispatch } from "react-redux";
 function CourseCard({ course }) {
-  const handleClick = () => {
-    const courseData = { /* your course data */ };
-    dispatch(setCourse(courseData));
-  };
-  // console.log(key);
+  const dispatch = useDispatch();
+  const handleClick = ()=>{
+    dispatch(setCourse({...course}))
+  }
+
   return (
     <div className="relative flex flex-col min-w-0 break-words bg-white shadow-soft-xl rounded-2xl bg-clip-border shadow-xl my-5 mx-20">
       <div className="flex-auto p-4">
@@ -20,7 +20,7 @@ function CourseCard({ course }) {
 
               <a
                 className="mt-auto mb-0 font-semibold leading-normal text-sm group text-slate-500"
-                href="/details?id=${course.id}"
+                href="/details"
                 onClick={handleClick}
               >
                 Read More
