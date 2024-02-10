@@ -1,0 +1,408 @@
+[
+    {
+      "id": 1,
+      "courseName": "Introduction to React.js",
+      "instructor": "John Doe",
+      "description": "Learn the basics of React.js and how to build dynamic web applications.",
+      "enrollmentStatus": "open",
+      "thumbnail": "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-dashboard/assets/img/illustrations/rocket-white.png",
+      "duration": "8 weeks",
+      "schedule": "Mondays and Wednesdays, 6-8 PM",
+      "location": "Online",
+      "prerequisites": ["HTML", "CSS", "JavaScript"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React",
+          "content": "Overview of React.js, setting up development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Components and Props",
+          "content": "Understanding components, passing data with props."
+        },
+        {
+          "week": 3,
+          "topic": "State and Lifecycle",
+          "content": "Managing component state, lifecycle methods."
+        },
+        {
+          "week": 4,
+          "topic": "Handling Events",
+          "content": "Event handling in React components."
+        },
+        {
+          "week": 5,
+          "topic": "Forms",
+          "content": "Working with forms in React."
+        },
+        {
+          "week": 6,
+          "topic": "React Router",
+          "content": "Introduction to React Router for navigation."
+        },
+        {
+          "week": 7,
+          "topic": "API Integration",
+          "content": "Fetching data from APIs using React."
+        },
+        {
+          "week": 8,
+          "topic": "Project",
+          "content": "Building a project using React.js."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Smith",
+          "email": "alice@example.com"
+        },
+        {
+          "id": 102,
+          "name": "Bob Johnson",
+          "email": "bob@example.com"
+        },
+        {
+          "id": 103,
+          "name": "Charlie Brown",
+          "email": "charlie@example.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "courseName": "Node.js Fundamentals",
+      "instructor": "Jane Smith",
+      "description": "Learn the fundamentals of Node.js and build scalable server-side applications.",
+      "enrollmentStatus": "open",
+      "thumbnail": "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-dashboard/assets/img/illustrations/rocket-white.png",
+      "duration": "6 weeks",
+      "schedule": "Tuesdays and Thursdays, 7-9 PM",
+      "location": "Online",
+      "prerequisites": ["JavaScript", "HTML", "CSS"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Node.js",
+          "content": "Overview of Node.js, installation, and setup."
+        },
+        {
+          "week": 2,
+          "topic": "Node.js Modules",
+          "content": "Understanding Node.js modules and require function."
+        },
+        {
+          "week": 3,
+          "topic": "Express.js",
+          "content": "Introduction to Express.js framework for building web applications."
+        },
+        {
+          "week": 4,
+          "topic": "Middleware",
+          "content": "Working with middleware in Express.js."
+        },
+        {
+          "week": 5,
+          "topic": "Database Integration",
+          "content": "Connecting Node.js with databases like MongoDB."
+        },
+        {
+          "week": 6,
+          "topic": "Project",
+          "content": "Building a project using Node.js and Express.js."
+        }
+      ],
+      "students": [
+        {
+          "id": 104,
+          "name": "David Lee",
+          "email": "david@example.com"
+        },
+        {
+          "id": 105,
+          "name": "Emma Davis",
+          "email": "emma@example.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "courseName": "Python Programming",
+      "instructor": "Michael Johnson",
+      "description": "Learn Python programming language from scratch.",
+      "enrollmentStatus": "open",
+      "thumbnail": "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-dashboard/assets/img/illustrations/rocket-white.png",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 7-9 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Python",
+          "content": "Overview of Python, installation, and setup."
+        },
+        {
+          "week": 2,
+          "topic": "Basic Syntax",
+          "content": "Understanding basic syntax, variables, and data types."
+        },
+        {
+          "week": 3,
+          "topic": "Control Flow",
+          "content": "Working with conditionals and loops."
+        },
+        {
+          "week": 4,
+          "topic": "Functions",
+          "content": "Defining and using functions in Python."
+        },
+        {
+          "week": 5,
+          "topic": "Data Structures",
+          "content": "Working with lists, tuples, dictionaries, and sets."
+        },
+        {
+          "week": 6,
+          "topic": "File Handling",
+          "content": "Reading and writing files in Python."
+        },
+        {
+          "week": 7,
+          "topic": "Modules and Packages",
+          "content": "Using built-in and third-party modules and packages."
+        },
+        {
+          "week": 8,
+          "topic": "Object-Oriented Programming",
+          "content": "Understanding classes, objects, inheritance, and polymorphism."
+        },
+        {
+          "week": 9,
+          "topic": "Exceptions and Errors",
+          "content": "Handling exceptions and errors in Python."
+        },
+        {
+          "week": 10,
+          "topic": "Project",
+          "content": "Building a project using Python."
+        }
+      ],
+      "students": [
+        {
+          "id": 106,
+          "name": "Frank Wilson",
+          "email": "frank@example.com"
+        },
+        {
+          "id": 107,
+          "name": "Grace Martinez",
+          "email": "grace@example.com"
+        },
+        {
+          "id": 108,
+          "name": "Henry Taylor",
+          "email": "henry@example.com"
+        }
+      ]
+    },
+    {
+        "id": 4,
+        "courseName": "Machine Learning Foundations",
+        "instructor": "Sarah Brown",
+        "description": "An introduction to machine learning algorithms and techniques.",
+        "enrollmentStatus": "open",
+        "thumbnail": "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-dashboard/assets/img/illustrations/rocket-white.png",
+        "duration": "12 weeks",
+        "schedule": "Tuesdays and Thursdays, 6-8 PM",
+        "location": "Online",
+        "prerequisites": ["Python", "Linear Algebra", "Statistics"],
+        "syllabus": [
+          {
+            "week": 1,
+            "topic": "Introduction to Machine Learning",
+            "content": "Overview of machine learning concepts and applications."
+          },
+          {
+            "week": 2,
+            "topic": "Supervised Learning",
+            "content": "Introduction to supervised learning algorithms."
+          },
+          {
+            "week": 3,
+            "topic": "Unsupervised Learning",
+            "content": "Introduction to unsupervised learning algorithms."
+          },
+          {
+            "week": 4,
+            "topic": "Regression",
+            "content": "Linear regression, polynomial regression, regularization."
+          },
+          {
+            "week": 5,
+            "topic": "Classification",
+            "content": "Logistic regression, decision trees, support vector machines."
+          },
+          {
+            "week": 6,
+            "topic": "Clustering",
+            "content": "K-means clustering, hierarchical clustering."
+          },
+          {
+            "week": 7,
+            "topic": "Dimensionality Reduction",
+            "content": "Principal component analysis (PCA), t-Distributed Stochastic Neighbor Embedding (t-SNE)."
+          },
+          {
+            "week": 8,
+            "topic": "Evaluation Metrics",
+            "content": "Accuracy, precision, recall, F1 score, ROC curve, AUC."
+          },
+          {
+            "week": 9,
+            "topic": "Model Selection and Validation",
+            "content": "Cross-validation, grid search, hyperparameter tuning."
+          },
+          {
+            "week": 10,
+            "topic": "Deep Learning Fundamentals",
+            "content": "Introduction to neural networks, activation functions, backpropagation."
+          },
+          {
+            "week": 11,
+            "topic": "Convolutional Neural Networks (CNNs)",
+            "content": "Architecture, training, applications."
+          },
+          {
+            "week": 12,
+            "topic": "Recurrent Neural Networks (RNNs)",
+            "content": "Architecture, training, applications."
+          }
+        ],
+        "students": [
+          {
+            "id": 109,
+            "name": "Isabella Garcia",
+            "email": "isabella@example.com"
+          },
+          {
+            "id": 110,
+            "name": "Jack Adams",
+            "email": "jack@example.com"
+          },
+          {
+            "id": 111,
+            "name": "Kate Brown",
+            "email": "kate@example.com"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "courseName": "Web Development Bootcamp",
+        "instructor": "Daniel Johnson",
+        "description": "A comprehensive bootcamp covering front-end and back-end web development.",
+        "enrollmentStatus": "closed",
+        "thumbnail": "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-dashboard/assets/img/illustrations/rocket-white.png",
+        "duration": "16 weeks",
+        "schedule": "Mondays, Wednesdays, and Fridays, 6-9 PM",
+        "location": "Online",
+        "prerequisites": ["HTML", "CSS", "JavaScript"],
+        "syllabus": [
+          {
+            "week": 1,
+            "topic": "Introduction to Web Development",
+            "content": "Overview of web development, setting up development environment."
+          },
+          {
+            "week": 2,
+            "topic": "HTML and CSS",
+            "content": "Fundamentals of HTML and CSS, building static web pages."
+          },
+          {
+            "week": 3,
+            "topic": "Responsive Design",
+            "content": "Designing websites for different screen sizes and devices."
+          },
+          {
+            "week": 4,
+            "topic": "JavaScript Basics",
+            "content": "Introduction to JavaScript, variables, data types, functions."
+          },
+          {
+            "week": 5,
+            "topic": "DOM Manipulation",
+            "content": "Interacting with the Document Object Model (DOM)."
+          },
+          {
+            "week": 6,
+            "topic": "jQuery",
+            "content": "Introduction to jQuery library for DOM manipulation and event handling."
+          },
+          {
+            "week": 7,
+            "topic": "Front-end Frameworks",
+            "content": "Introduction to front-end frameworks like React.js or Angular."
+          },
+          {
+            "week": 8,
+            "topic": "Back-end Development Basics",
+            "content": "Introduction to back-end development, setting up server environment."
+          },
+          {
+            "week": 9,
+            "topic": "Node.js and Express.js",
+            "content": "Building server-side applications with Node.js and Express.js."
+          },
+          {
+            "week": 10,
+            "topic": "Database Integration",
+            "content": "Connecting web applications to databases like MongoDB or MySQL."
+          },
+          {
+            "week": 11,
+            "topic": "Authentication and Authorization",
+            "content": "Implementing user authentication and authorization."
+          },
+          {
+            "week": 12,
+            "topic": "RESTful APIs",
+            "content": "Designing and implementing RESTful APIs for web applications."
+          },
+          {
+            "week": 13,
+            "topic": "Deployment",
+            "content": "Deploying web applications to hosting platforms like Heroku or AWS."
+          },
+          {
+            "week": 14,
+            "topic": "Project",
+            "content": "Building a full-stack web application."
+          },
+          {
+            "week": 15,
+            "topic": "Final Project Presentation",
+            "content": "Presenting and showcasing the final project."
+          },
+          {
+            "week": 16,
+            "topic": "Career Development",
+            "content": "Preparing for job interviews, building a portfolio."
+          }
+        ],
+        "students": [
+          {
+            "id": 112,
+            "name": "Liam Wilson",
+            "email": "liam@example.com"
+          },
+          {
+            "id": 113,
+            "name": "Mia Taylor",
+            "email": "mia@example.com"
+          }
+        ]
+      }
+  ]
+  
