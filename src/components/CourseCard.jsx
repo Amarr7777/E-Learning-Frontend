@@ -4,9 +4,9 @@ import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 function CourseCard({ course }) {
   const dispatch = useDispatch();
-  const handleClick = ()=>{
-    dispatch(setCourse({...course}))
-  }
+  const handleClick = () => {
+    dispatch(setCourse({ ...course }));
+  };
 
   return (
     <div className="relative flex flex-col min-w-0 break-words bg-white shadow-soft-xl rounded-2xl bg-clip-border shadow-xl my-5 mx-20">
@@ -18,11 +18,14 @@ function CourseCard({ course }) {
               <h5 className="font-bold">{course.instructor}</h5>
               <p className="mb-1">{course.description} </p>
               <p className="mb-12">{course.duration} </p>
-              <button>
-              <Link to="/details"
-               onClick={handleClick}
-              className="mt-auto mb-0 font-semibold leading-normal text-sm group text-slate-500"
-              >Read more</Link>
+              <button className=" flex w-1/5 mt-auto">
+                <Link
+                  to="/details"
+                  onClick={handleClick}
+                  className="mt-auto mb-0 font-semibold leading-normal text-sm group text-slate-500"
+                >
+                  Read more
+                </Link>
               </button>
             </div>
           </div>
@@ -31,7 +34,7 @@ function CourseCard({ course }) {
               <div className="relative flex items-center justify-center h-full">
                 <img
                   className="relative z-20 w-full pt-6"
-                  src= {course.thumbnail}
+                  src={course.thumbnail}
                   alt="thumbnail"
                 />
               </div>

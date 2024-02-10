@@ -20,8 +20,8 @@ function CourseDetails() {
             Enroll
           </button>
         </div>
-        <CourseInfoCard />
-        <Syllabus />
+        <CourseInfoCard course = {course} />
+        <Syllabus course = {course} />
       </div>
     </>
   );
