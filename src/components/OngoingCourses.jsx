@@ -4,7 +4,7 @@ function OngoingCourses() {
   return (
     <div
       style={{ height: "300px" }}
-      className="flex flex-col justify-center items-center gap-5 p-5 w-1/2 shadow-xl shadow-purple-200 rounded-md bg-white text-white"
+      className="flex flex-col justify-center items-center gap-5 p-5 w-1/2 shadow-xl shadow-purple-200 rounded-xl bg-white text-white"
     >
       <div>
         <p className="font-bold text-black text-center">Enrolled Courses</p>

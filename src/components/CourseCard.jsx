@@ -1,7 +1,12 @@
 import React from "react";
-// import srcData from "../constants/index.json";
+import { setCourse } from "../redux/courseSlice";
+// import { selectCourse } from "../actions";
 function CourseCard({ course }) {
-  console.log(course);
+  const handleClick = () => {
+    const courseData = { /* your course data */ };
+    dispatch(setCourse(courseData));
+  };
+  // console.log(key);
   return (
     <div className="relative flex flex-col min-w-0 break-words bg-white shadow-soft-xl rounded-2xl bg-clip-border shadow-xl my-5 mx-20">
       <div className="flex-auto p-4">
@@ -15,7 +20,8 @@ function CourseCard({ course }) {
 
               <a
                 className="mt-auto mb-0 font-semibold leading-normal text-sm group text-slate-500"
-                href="/details"
+                href="/details?id=${course.id}"
+                onClick={handleClick}
               >
                 Read More
                 <i className="fas fa-arrow-right ease-bounce text-sm group-hover:translate-x-1.25 ml-1 leading-normal transition-all duration-200"></i>
